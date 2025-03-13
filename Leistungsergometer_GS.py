@@ -4,7 +4,7 @@ for i in range (10):
   try:
     data ={
         "experiment_id": first_experiment_id + i, #dict erstellen mit allen Daten
-        "Versuchsleiter": "Schwarz Gabriel",
+        "Versuchsleiter": "Gabriel",
         "Datum": "12.03.2025"
     }
     performance_test.append(data) # Daten der Liste hinzufügen
